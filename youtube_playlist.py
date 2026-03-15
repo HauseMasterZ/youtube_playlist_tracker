@@ -98,11 +98,15 @@ for playlist_id in playlist_ids:
             pass
     #---------------------------------------------------------------------------#
     
-    with open(f'{playlist_ids[playlist_id]}_Video_Playlist_Data.p', 'rb') as file:
-        try:
+
+    data_file = f'{playlist_ids[]playlist_id]}Video_Playlist_Data.p'
+
+    if os.path.exists(data_file):
+        with open(data_file, 'rb') as file:
             saved_video_dict_list = pickle.load(file)
-        except:
-            saved_video_dict_list = {}                 
+    else:
+        print(f"{data_file} not found...creating")
+        saved_video_dict_list = {}
     
     songs_ids_added   = [ song_id for song_id in yt_video_dict_list    if song_id not in saved_video_dict_list ]
     songs_ids_removed = [ song_id for song_id in saved_video_dict_list if song_id not in yt_video_dict_list    ]
