@@ -25,11 +25,12 @@ youtube = build('youtube', 'v3', developerKey=youtube_api_key)
 #     print( item['snippet']['title'] )
 #------------------------------------------------------------------------#
 current_time     = datetime.datetime.now()
-video_ID_list    = [ ]
-video_title_list = [ ]   #List that holds all the titles of the videos of a playlist
+
 nextPageToken    = None
 
 for playlist_id in playlist_ids:
+    video_ID_list    = [ ]
+    video_title_list = [ ]   #List that holds all the titles of the videos of a playlist
     while True:           #Loop through multiple pages of 50-values
     
         pl_request = youtube.playlistItems().list(
