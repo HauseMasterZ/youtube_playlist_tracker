@@ -4,7 +4,7 @@ from typing import ItemsView
 from googleapiclient.discovery import build
 
 youtube_api_key = os.environ.get("youtube_api_key")
-playlist_id     = "your_playlist_id"
+playlist_id     = "PLK5tc6FSo174pECpHWftUYDcw5KFk4HLs"
 # channel_id      = "your_channel_id"
 
 youtube = build('youtube', 'v3', developerKey=youtube_api_key)
