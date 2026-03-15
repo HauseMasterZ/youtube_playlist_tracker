@@ -1,6 +1,7 @@
 import datetime
 import os
 from typing import ItemsView
+import pickle
 from googleapiclient.discovery import build
 
 youtube_api_key = os.environ.get("YOUTUBE_API_KEY")
