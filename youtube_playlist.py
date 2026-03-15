@@ -20,11 +20,19 @@ for playlist_id, playlist_name in playlist_ids.items():
     try:
         folder = playlist_name
         os.makedirs(folder, exist_ok=True)
-    
-        video_ID_list    = []
-        video_title_list = []
-        nextPageToken    = None
-    
+
+        data_file    = f"{folder}/Video_Playlist_Data.p"
+        titles_file  = f"{folder}/Video_Titles.txt"
+        added_file   = f"{folder}/Video_Titles_Added.txt"
+        removed_file = f"{folder}/Video_Titles_Removed.txt"
+
+        for file_path in [added_file, removed_file]:
+            if not os.path.exists(file_path):
+                open(file_path, 'w').close()
+
+        current       = {}
+        nextPageToken = None
+
         while True:
             pl_response = youtube.playlistItems().list(
                 part       = 'contentDetails',
@@ -32,59 +40,68 @@ for playlist_id, playlist_name in playlist_ids.items():
                 maxResults = 50,
                 pageToken  = nextPageToken
             ).execute()
-    
+
             vid_ids = [item["contentDetails"]["videoId"] for item in pl_response['items']]
-            video_ID_list.extend(vid_ids)
-    
+
             vid_response = youtube.videos().list(
-                part       = "snippet",
+                part       = "snippet, contentDetails",
                 id         = ','.join(vid_ids),
                 maxResults = 50
             ).execute()
-    
-            video_title_list.extend([item['snippet']['title'] for item in vid_response['items']])
-    
+
+            for item in vid_response['items']:
+                vid_id = item['id']
+                current[vid_id] = {
+                    "title"     : item['snippet']['title'],
+                    "channel"   : item['snippet']['channelTitle'],
+                    "published" : item['snippet']['publishedAt'],
+                    "duration"  : item['contentDetails']['duration'],
+                    "url"       : f"https://www.youtube.com/watch?v={vid_id}"
+                }
+
             nextPageToken = pl_response.get("nextPageToken")
             if not nextPageToken:
                 break
-    
-        current = {vid: title for vid, title in zip(video_ID_list, video_title_list)}
-    
-        data_file    = f"{folder}/Video_Playlist_Data.p"
-        titles_file  = f"{folder}/Video_Titles.txt"
-        added_file   = f"{folder}/Video_Titles_Added.txt"
-        removed_file = f"{folder}/Video_Titles_Removed.txt"
-    
+
         if os.path.exists(data_file):
             with open(data_file, 'rb') as f:
                 previous = pickle.load(f)
         else:
             previous = {}
-    
+
         added   = {sid: current[sid]  for sid in current  if sid not in previous}
         removed = {sid: previous[sid] for sid in previous if sid not in current}
-    
+
         if added:
             with open(added_file, "a", encoding="utf-8") as f:
                 f.write(f"Added on: {current_time}\n\n")
-                for i, title in enumerate(added.values(), 1):
-                    f.write(f"{i}: {title}\n")
+                for i, (vid_id, meta) in enumerate(added.items(), 1):
+                    f.write(f"{i}: {meta['title']}\n")
+                    f.write(f"   Channel  : {meta['channel']}\n")
+                    f.write(f"   Published: {meta['published']}\n")
+                    f.write(f"   Duration : {meta['duration']}\n")
+                    f.write(f"   URL      : {meta['url']}\n\n")
                 f.write("#-----------------------------------------------#\n\n")
-    
+
         if removed:
             with open(removed_file, "a", encoding="utf-8") as f:
                 f.write(f"Removed on: {current_time}\n\n")
-                for i, title in enumerate(removed.values(), 1):
-                    f.write(f"{i}: {title}\n")
+                for i, (vid_id, meta) in enumerate(removed.items(), 1):
+                    f.write(f"{i}: {meta['title']}\n")
+                    f.write(f"   Channel  : {meta['channel']}\n")
+                    f.write(f"   Published: {meta['published']}\n")
+                    f.write(f"   Duration : {meta['duration']}\n")
+                    f.write(f"   URL      : {meta['url']}\n\n")
                 f.write("#-----------------------------------------------#\n\n")
-    
+
         with open(data_file, 'wb') as f:
             pickle.dump(current, f, protocol=pickle.HIGHEST_PROTOCOL)
-    
+
         with open(titles_file, "w", encoding="utf-8") as f:
             f.write(f"Playlist last checked on: {current_time}\n\n")
-            for i, title in enumerate(current.values(), 1):
-                f.write(f"{i}: {title}\n")
-    except:
+            for i, meta in enumerate(current.values(), 1):
+                f.write(f"{i}: {meta['title']}\n")
+
+    except Exception as e:
         print(f"Failed to process {playlist_name}: {e}")
         continue
