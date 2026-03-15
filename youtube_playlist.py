@@ -3,7 +3,7 @@ import os
 from typing import ItemsView
 from googleapiclient.discovery import build
 
-youtube_api_key = os.environ.get("youtube_api_key")
+youtube_api_key = os.environ.get("YOUTUBE_API_KEY")
 playlist_id     = "PLK5tc6FSo174pECpHWftUYDcw5KFk4HLs"
 # channel_id      = "your_channel_id"
 
