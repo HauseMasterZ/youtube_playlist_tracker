@@ -17,6 +17,9 @@ youtube      = build('youtube', 'v3', developerKey=youtube_api_key)
 current_time = datetime.datetime.now()
 
 for playlist_id, playlist_name in playlist_ids.items():
+    folder = playlist_name
+    os.makedirs(folder, exist_ok=True)
+
     video_ID_list    = []
     video_title_list = []
     nextPageToken    = None
@@ -46,7 +49,11 @@ for playlist_id, playlist_name in playlist_ids.items():
 
     current = {vid: title for vid, title in zip(video_ID_list, video_title_list)}
 
-    data_file = f"{playlist_name}_Video_Playlist_Data.p"
+    data_file    = f"{folder}/Video_Playlist_Data.p"
+    titles_file  = f"{folder}/Video_Titles.txt"
+    added_file   = f"{folder}/Video_Titles_Added.txt"
+    removed_file = f"{folder}/Video_Titles_Removed.txt"
+
     if os.path.exists(data_file):
         with open(data_file, 'rb') as f:
             previous = pickle.load(f)
@@ -57,14 +64,14 @@ for playlist_id, playlist_name in playlist_ids.items():
     removed = {sid: previous[sid] for sid in previous if sid not in current}
 
     if added:
-        with open(f"{playlist_name}_Video_Titles_Added.txt", "a", encoding="utf-8") as f:
+        with open(added_file, "a", encoding="utf-8") as f:
             f.write(f"Added on: {current_time}\n\n")
             for i, title in enumerate(added.values(), 1):
                 f.write(f"{i}: {title}\n")
             f.write("#-----------------------------------------------#\n\n")
 
     if removed:
-        with open(f"{playlist_name}_Video_Titles_Removed.txt", "a", encoding="utf-8") as f:
+        with open(removed_file, "a", encoding="utf-8") as f:
             f.write(f"Removed on: {current_time}\n\n")
             for i, title in enumerate(removed.values(), 1):
                 f.write(f"{i}: {title}\n")
@@ -73,7 +80,7 @@ for playlist_id, playlist_name in playlist_ids.items():
     with open(data_file, 'wb') as f:
         pickle.dump(current, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-    with open(f"{playlist_name}_Video_Titles.txt", "w", encoding="utf-8") as f:
+    with open(titles_file, "w", encoding="utf-8") as f:
         f.write(f"Playlist last checked on: {current_time}\n\n")
         for i, title in enumerate(current.values(), 1):
             f.write(f"{i}: {title}\n")
