@@ -99,7 +99,7 @@ for playlist_id in playlist_ids:
     #---------------------------------------------------------------------------#
     
 
-    data_file = f'{playlist_ids[playlist_id]}Video_Playlist_Data.p'
+    data_file = f'{playlist_ids[playlist_id]}_Video_Playlist_Data.p'
 
     if os.path.exists(data_file):
         with open(data_file, 'rb') as file:
