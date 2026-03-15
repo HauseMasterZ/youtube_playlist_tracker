@@ -2248,3 +2248,13 @@ Added on: 2026-03-15 10:56:10.906899
 
 #-----------------------------------------------#
 
+Added on: 2026-03-15 10:57:36.185693
+
+1: Bad (2012 Remaster)
+   Channel  : Michael Jackson - Topic
+   Published: 2017-01-26T00:51:35Z
+   Duration : PT4M8S
+   URL      : https://www.youtube.com/watch?v=-DlMoJ2V6uk
+
+#-----------------------------------------------#
+
