@@ -5,7 +5,7 @@ import pickle
 from googleapiclient.discovery import build
 
 youtube_api_key = os.environ.get("YOUTUBE_API_KEY")
-playlist_ids    = {"PLK5tc6FSo174pECpHWftUYDcw5KFk4HLs": "gym", "PLK5tc6FSo175xc8zNBMrUZJIY9Q_K9I4w": "driving", "PLK5tc6FSo177DVG_k_Tx57Ztvh0B-5Drd": "songs"}
+playlist_ids    = {"PLK5tc6FSo174pECpHWftUYDcw5KFk4HLs": "Gym", "PLK5tc6FSo175xc8zNBMrUZJIY9Q_K9I4w": "Driving", "PLK5tc6FSo177DVG_k_Tx57Ztvh0B-5Drd": "Songs"}
 # channel_id      = "your_channel_id"
 
 youtube = build('youtube', 'v3', developerKey=youtube_api_key)
