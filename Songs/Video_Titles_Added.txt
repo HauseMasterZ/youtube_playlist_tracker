@@ -7654,3 +7654,19 @@ Added on: 2026-03-18 18:40:51.244334
 
 #-----------------------------------------------#
 
+Added on: 2026-04-07 18:43:02.654919
+
+1: Feeling Good
+   Channel  : Nina Simone - Topic
+   Published: 2018-11-29T10:21:34Z
+   Duration : PT2M54S
+   URL      : https://www.youtube.com/watch?v=BNMKGYiJpvg
+
+2: Nuke Powder
+   Channel  : MaelouX - Topic
+   Published: 2023-04-02T10:04:00Z
+   Duration : PT3M15S
+   URL      : https://www.youtube.com/watch?v=lTC15FPVhaU
+
+#-----------------------------------------------#
+
