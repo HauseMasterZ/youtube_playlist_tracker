@@ -7680,3 +7680,31 @@ Added on: 2026-04-12 12:32:42.758024
 
 #-----------------------------------------------#
 
+Added on: 2026-04-17 18:39:25.574078
+
+1: MadhouseDUDE - Flock
+   Channel  : Aeralix
+   Published: 2015-10-03T14:16:55Z
+   Duration : PT4M10S
+   URL      : https://www.youtube.com/watch?v=ENl2lIqMZDk
+
+2: HSBC'nin Marka Müziği | Jean-Michel Jarre – In Flight
+   Channel  : HSBC Türkiye
+   Published: 2019-02-28T06:50:08Z
+   Duration : PT57S
+   URL      : https://www.youtube.com/watch?v=BFFkN8YTCqA
+
+3: Jean-Michel Jarre - Together We Thrive (The Sound Of HSBC)
+   Channel  : Jarre98
+   Published: 2019-01-26T20:31:19Z
+   Duration : PT19M30S
+   URL      : https://www.youtube.com/watch?v=SisKGs9JgNQ
+
+4: #OpenToBetterBanking
+   Channel  : Axis Bank
+   Published: 2023-10-05T04:20:09Z
+   Duration : PT31S
+   URL      : https://www.youtube.com/watch?v=KfXiMLMSs8U
+
+#-----------------------------------------------#
+
