@@ -2138,3 +2138,49 @@ Added on: 2026-04-24 07:31:06.334809
 
 #-----------------------------------------------#
 
+Added on: 2026-04-25 12:34:03.881503
+
+1: Real Racing 3 | Midnight Juggernauts Road to Recovery (Soundtrack)
+   Channel  : ꫀ ꪚ ꪱꪰ ꪶ
+   Published: 2021-07-28T05:00:03Z
+   Duration : PT5M4S
+   URL      : https://www.youtube.com/watch?v=DyV79do-lE8
+
+2: Real Racing 3 | Rusko EveryDay Netsky Remix (Soundtrack)
+   Channel  : ꫀ ꪚ ꪱꪰ ꪶ
+   Published: 2021-07-25T17:55:21Z
+   Duration : PT4M12S
+   URL      : https://www.youtube.com/watch?v=VWrkCjCm_E4
+
+3: Shubh - One Love (Official Audio)
+   Channel  : SHUBH
+   Published: 2023-08-18T10:32:15Z
+   Duration : PT2M40S
+   URL      : https://www.youtube.com/watch?v=0pWsCiBvLOk
+
+4: Arman Cekin - California Dreaming (feat. Paul Rey)
+   Channel  : Trap Nation
+   Published: 2016-06-27T13:51:49Z
+   Duration : PT3M6S
+   URL      : https://www.youtube.com/watch?v=14zIhlfeUjE
+
+5: Phonk Type Beat - "Vibrate" | House/Rap Phonk Type Beat
+   Channel  : HazeRipper
+   Published: 2024-01-09T19:34:13Z
+   Duration : PT2M25S
+   URL      : https://www.youtube.com/watch?v=Seo-HzeQ-6k
+
+6: [FREE] Phonk Type Beat - "Jab" | House/Rap Phonk Type Beat | TOP G Phonk Instrumental 2024
+   Channel  : HazeRipper
+   Published: 2024-01-08T19:13:22Z
+   Duration : PT2M20S
+   URL      : https://www.youtube.com/watch?v=InyjhlVMMe8
+
+7: Winnin'
+   Channel  : fracko - Topic
+   Published: 2025-07-29T07:55:17Z
+   Duration : PT2M55S
+   URL      : https://www.youtube.com/watch?v=noJth6CJ9C4
+
+#-----------------------------------------------#
+
