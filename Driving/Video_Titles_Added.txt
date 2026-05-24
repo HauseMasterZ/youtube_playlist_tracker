@@ -2312,3 +2312,31 @@ Added on: 2026-05-23 12:52:54.277110
 
 #-----------------------------------------------#
 
+Added on: 2026-05-24 08:12:21.818728
+
+1: One Outs Original Soundtrack -13-Toua
+   Channel  : ONEMANFORALL
+   Published: 2011-06-25T09:19:26Z
+   Duration : PT1M58S
+   URL      : https://www.youtube.com/watch?v=JV8h2NiZfyk
+
+2: One Outs Original Soundtrack -10-Ain't Got No More
+   Channel  : ONEMANFORALL
+   Published: 2011-06-25T06:22:46Z
+   Duration : PT1M34S
+   URL      : https://www.youtube.com/watch?v=2L9xFsqSkh4
+
+3: One Outs Original Soundtrack -07- Aim It
+   Channel  : ONEMANFORALL
+   Published: 2011-06-24T14:58:26Z
+   Duration : PT2M5S
+   URL      : https://www.youtube.com/watch?v=KQoD9GHa3mU
+
+4: One Outs Original Soundtrack -08-Obstruction
+   Channel  : ONEMANFORALL
+   Published: 2011-06-24T15:33:42Z
+   Duration : PT5M28S
+   URL      : https://www.youtube.com/watch?v=F_nqlo1dcmo
+
+#-----------------------------------------------#
+
