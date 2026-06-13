@@ -2386,3 +2386,13 @@ Added on: 2026-05-31 18:58:20.143563
 
 #-----------------------------------------------#
 
+Added on: 2026-06-13 19:03:00.049780
+
+1: Kurdish2
+   Channel  : Morteza jizanei - Topic
+   Published: 2026-05-26T18:01:44Z
+   Duration : PT2M45S
+   URL      : https://www.youtube.com/watch?v=z-R42hjPcAM
+
+#-----------------------------------------------#
+

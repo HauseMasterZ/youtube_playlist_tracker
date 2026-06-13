@@ -2350,3 +2350,13 @@ Added on: 2026-05-31 18:58:20.143563
 
 #-----------------------------------------------#
 
+Added on: 2026-06-13 19:03:00.049780
+
+1: Florence Cathedral
+   Channel  : Say Project - Topic
+   Published: 2026-05-26T10:01:29Z
+   Duration : PT1M23S
+   URL      : https://www.youtube.com/watch?v=PnhttGuX-q0
+
+#-----------------------------------------------#
+
