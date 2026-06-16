@@ -7758,3 +7758,43 @@ Added on: 2026-06-13 19:03:00.049780
 
 #-----------------------------------------------#
 
+Added on: 2026-06-16 10:48:10.910058
+
+1: Ice Cube - Crack Baby Rebassed [low bass 34 Hz]
+   Channel  : XCLSV
+   Published: 2018-02-11T17:45:09Z
+   Duration : PT3M
+   URL      : https://www.youtube.com/watch?v=CYoRPBIvnmY
+
+2: (23-37Hz) Wiz Khalifa - This Plane (No Sleep Remix) (Rebassed by krychu)
+   Channel  : XCLSV
+   Published: 2025-04-17T21:17:46Z
+   Duration : PT3M28S
+   URL      : https://www.youtube.com/watch?v=xrs57Azgeog
+
+3: Kendrick Lamar - Maad City (Bass Boosted)
+   Channel  : BASS BOOSTED SONGS
+   Published: 2022-02-18T15:30:04Z
+   Duration : PT2M39S
+   URL      : https://www.youtube.com/watch?v=L2lVueauM2o
+
+4: [ 33,35,37Hz ] Gorilla Zoe feat. FloRida - Oohh Ahh Rebassed [ low bass by lonelySx ]
+   Channel  : XCLSV
+   Published: 2018-01-21T14:38:33Z
+   Duration : PT2M27S
+   URL      : https://www.youtube.com/watch?v=Aw2fZbjCVQE
+
+5: 2 FAST 2 FURIOUS - Shogun (ft. SLVG) (BASS BOOSTED)
+   Channel  : MaxFiveBass
+   Published: 2022-08-17T16:00:02Z
+   Duration : PT1M55S
+   URL      : https://www.youtube.com/watch?v=4_lESY37G6c
+
+6: Lil Wayne - A Milli (Bass Boosted)
+   Channel  : BASS BOOSTED SONGS
+   Published: 2020-11-12T15:44:48Z
+   Duration : PT3M40S
+   URL      : https://www.youtube.com/watch?v=2kl8nTmCGfs
+
+#-----------------------------------------------#
+
