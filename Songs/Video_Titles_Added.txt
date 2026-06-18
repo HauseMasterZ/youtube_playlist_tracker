@@ -7798,3 +7798,25 @@ Added on: 2026-06-16 10:48:10.910058
 
 #-----------------------------------------------#
 
+Added on: 2026-06-18 20:04:09.554857
+
+1: (33-37Hz) E-40 ft. T. Pain  - U and Dat (Slowed & Rebassed by DJRMP / Bass Society)
+   Channel  : XCLSV
+   Published: 2023-02-12T21:55:17Z
+   Duration : PT3M48S
+   URL      : https://www.youtube.com/watch?v=iBUm1veZxX0
+
+2: (25-46Hz) Justin Timberlake - Cry Me a River [Rebassed by BassEnthusiast]
+   Channel  : XCLSV
+   Published: 2026-06-08T20:38:03Z
+   Duration : PT4M49S
+   URL      : https://www.youtube.com/watch?v=IJzfhY3ngYk
+
+3: (33-51Hz) YNW Melly - Freestyle (Rebassed by bassproducer)
+   Channel  : XCLSV
+   Published: 2024-04-25T20:32:53Z
+   Duration : PT3M51S
+   URL      : https://www.youtube.com/watch?v=6xfhk4On89c
+
+#-----------------------------------------------#
+
