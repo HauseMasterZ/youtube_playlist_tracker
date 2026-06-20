@@ -7820,3 +7820,13 @@ Added on: 2026-06-18 20:04:09.554857
 
 #-----------------------------------------------#
 
+Added on: 2026-06-20 08:36:43.716167
+
+1: BAD ABOUT FUNK (Slowed)
+   Channel  : MVDNES - Topic
+   Published: 2026-05-28T10:02:22Z
+   Duration : PT1M8S
+   URL      : https://www.youtube.com/watch?v=lMz0vS8DPeo
+
+#-----------------------------------------------#
+
