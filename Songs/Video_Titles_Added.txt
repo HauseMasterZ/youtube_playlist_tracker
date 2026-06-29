@@ -7932,3 +7932,19 @@ Added on: 2026-06-28 18:57:59.880287
 
 #-----------------------------------------------#
 
+Added on: 2026-06-29 15:23:07.585568
+
+1: Ava Max - Sweet but Psycho [Official Music Video]
+   Channel  : Ava Max
+   Published: 2018-08-27T16:26:25Z
+   Duration : PT3M28S
+   URL      : https://www.youtube.com/watch?v=WXBHCQYxwr0
+
+2: In the End
+   Channel  : Linkin Park - Topic
+   Published: 2024-05-07T06:48:39Z
+   Duration : PT3M37S
+   URL      : https://www.youtube.com/watch?v=gB9P0kpc1O4
+
+#-----------------------------------------------#
+
