@@ -2448,3 +2448,19 @@ Added on: 2026-06-28 18:57:59.880287
 
 #-----------------------------------------------#
 
+Added on: 2026-06-30 13:48:49.218790
+
+1: ARNOLDTEKK (SLOWED)
+   Channel  : XvallariX - Topic
+   Published: 2026-06-08T15:46:42Z
+   Duration : PT1M38S
+   URL      : https://www.youtube.com/watch?v=4yNkyGJBZ6I
+
+2: SATISFACTION TEKK - SLOWED
+   Channel  : thrubones - Topic
+   Published: 2026-06-09T10:04:00Z
+   Duration : PT1M55S
+   URL      : https://www.youtube.com/watch?v=D_OGoLUutSI
+
+#-----------------------------------------------#
+
